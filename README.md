@@ -38,3 +38,9 @@ Before running, replace the `COMPARTMENT_ID` variable in `01_instance_select.py`
 
 ```python
 COMPARTMENT_ID = "<your_compartment_ocid>"
+
+## 📘 About
+This project was created and is maintained by surgingsparks, a cloud automation engineer passionate about designing resilient, automated infrastructure.
+The name “surgingsparks” reflects the momentum and energy behind building platforms that just work.
+
+Feel free to fork, contribute, or reach out for collaboration.
