@@ -45,3 +45,7 @@ This project was created and is maintained by surgingsparks, a cloud automation 
 The name “surgingsparks” reflects the momentum and energy behind building platforms that just work.
 
 Feel free to fork, contribute, or reach out for collaboration.
+
+## 📄 License
+This repository is licensed under the MIT License.
+© 2025 surgingsparks. All rights reserved.
