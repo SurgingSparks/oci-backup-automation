@@ -43,5 +43,5 @@ def list_instances(compartment_id):
 
 
 if __name__ == "__main__":
-    COMPARTMENT_ID = "YourCompartmentID"
+    COMPARTMENT_ID = "<your_compartment_ocid>"
     list_instances(COMPARTMENT_ID)
