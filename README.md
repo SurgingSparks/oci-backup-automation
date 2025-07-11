@@ -33,9 +33,8 @@ Designed for Oracle Cloud environments where RPO compliance and operational effi
 - Python 3.x (pre-installed in Cloud Shell and Oracle Linux instances).
 - OCI Python SDK (pre-installed in Cloud Shell and most Oracle Linux images).
 
-### 🔷 Run steps
-```bash
-python 01_instance_select.py
-python 02_volume_identify.py
-python 03_volume_backup.py
-python 04_volume_restore.py
+### 🔷 Configure
+Before running, replace the `COMPARTMENT_ID` variable in `01_instance_select.py` with your target compartment OCID:
+
+```python
+COMPARTMENT_ID = "<your_compartment_ocid>"
