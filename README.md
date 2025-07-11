@@ -1,6 +1,6 @@
 # OCI Backup & Restore Automation
 
-**Automated boot & block volume backups and restores in Oracle Cloud Infrastructure using OCI CLI via Python orchestration.**  
+**Automated boot & block volume backups and restores in Oracle Cloud Infrastructure using the Python SDK with instance principal authentication.**  
 Improves platform resilience and eliminates manual backup errors by implementing a lightweight, reusable backup and restore pattern.
 
 ---
@@ -8,7 +8,7 @@ Improves platform resilience and eliminates manual backup errors by implementing
 ## 📄 Overview
 
 Manually backing up and restoring OCI boot and block volumes is time-consuming and error-prone.  
-This automation orchestrates backups and restores using Python and the OCI CLI, running under the executing user’s authentication context (e.g., OCI config file or instance principal).
+This automation orchestrates backups and restores using Python and the OCI SDK, running under the executing compute instance’s instance principal (no config file required).
 
 Designed for Oracle Cloud environments where RPO compliance and operational efficiency are critical.
 
@@ -29,9 +29,9 @@ Designed for Oracle Cloud environments where RPO compliance and operational effi
 ## 🚀 How to Run
 
 ### 🔷 Prerequisites
-- OCI CLI installed & configured:
-  - Install: https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm
-  - Authenticated via `~/.oci/config` or instance principal
+- Run on an OCI compute instance or Cloud Shell with appropriate IAM policies assigned.
+- Python 3.x (pre-installed in Cloud Shell and Oracle Linux instances).
+- OCI Python SDK (pre-installed in Cloud Shell and most Oracle Linux images).
 
 ### 🔷 Run steps
 ```bash
